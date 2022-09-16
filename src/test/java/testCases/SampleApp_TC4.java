@@ -34,6 +34,7 @@ public class SampleApp_TC4 extends Base_Class {
 		sam.enterPassword("pwd");
 		sam.clickLogin();
 		String val=sam.WelcomeMethod();
+		System.out.println(val);
 		boolean value;
 		if(val.contains("Sheela"))
 			{
